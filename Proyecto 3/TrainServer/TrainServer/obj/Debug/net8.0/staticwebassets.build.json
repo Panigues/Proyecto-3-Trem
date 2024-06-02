@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qi79TTclclwOGbNtgIPZUTE6kAcQE23bAzereu1B08o=",
+  "Source": "TrainServer",
+  "BasePath": "_content/TrainServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
