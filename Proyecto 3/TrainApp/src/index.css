@@ -14,32 +14,18 @@ h1{
   font-size: xx-large;
   font-weight: bold;
 }
+a{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 button1{
   background-color: #000000;
   border: none;
   color: rgb(255, 255, 255);
   padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-button1{
-  height: 40px;
-  width: 60px;
-  background-color: #000000;
-  border: none;
-  color: rgb(255, 255, 255);
-  padding: 10px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -52,8 +38,6 @@ button1{
   align-items: center;
 }
 button2{
-  height: 40px;
-  width: 60px;
   background-color: #000000;
   border: none;
   color: rgb(255, 255, 255);
@@ -66,7 +50,7 @@ button2{
   cursor: pointer;
   border-radius: 12px;
   display: flex;
-  justify-self: center;
+  justify-content: center;
   align-items: center;
 }
 
