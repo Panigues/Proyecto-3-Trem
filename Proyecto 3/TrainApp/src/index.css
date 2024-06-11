@@ -30,7 +30,7 @@ button1{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 0px 400px;
+  margin: 0px 250px;
   cursor: pointer;
   border-radius: 12px;
   display: flex;
@@ -46,7 +46,39 @@ button2{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 0px 400px;
+  margin: 0px 250px;
+  cursor: pointer;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button3{
+  background-color: #000000;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 250px;
+  cursor: pointer;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button4{
+  background-color: #000000;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 250px;
   cursor: pointer;
   border-radius: 12px;
   display: flex;
