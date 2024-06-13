@@ -14,12 +14,19 @@ h1{
   font-size: xx-large;
   font-weight: bold;
 }
+p{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 a{
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
 button1{
   background-color: #3b3b3b;
