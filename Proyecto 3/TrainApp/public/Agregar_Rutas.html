@@ -13,22 +13,71 @@
     
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     
-    <title>TREN</title>
     <link rel="stylesheet" type="text/css" href="C:\Users\johnp\Desktop\Proyecto-3-Trem\Proyecto 3\TrainApp\src\index.css">
     <link rel= "stylesheet" type="text/JavaScript" href="C:\Users\johnp\Desktop\Proyecto-3-Trem\Proyecto 3\TrainApp\src\index.js">
+    <title>Registro de Recorrido de Tren</title>
+  <style>
+    /* Add some basic styling to the page */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    form {
+      width: 50%;
+      margin: 40px auto;
+      padding: 50px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="text"] {
+      width: 100%;
+      height: 40px;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+    input[type="number"] {
+      width: 100%;
+      height: 40px;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+    input[type="submit"] {
+      width: 100%;
+      height: 40px;
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
   </head>
   <body>
     <a>
       <img src="C:\Users\johnp\Desktop\Proyecto-3-Trem\Proyecto 3\TrainApp\public\logo192.png" alt="Botón de imagen">
     </a>
-    <h1> Agregar Rutas </h1>
-    <a> Ingrese la estacion de salida </a> 
-    <p> <input type="text">  </input> </p>
-    <a> Ingrese la estacion de llegada </a> 
-    <p> <input type="text">  </input> </p>
-    <a> Ingrese la distancia entre estaciones </a> 
-    <p> <input type="text">  </input> </p>
-    <p> <input type="button" value="Aceptar"> </p>
+    <body>
+      <h1>Registro de Recorrido de Tren</h1>
+      <form>
+        <label for="estacion-inicio">Estación de Inicio:</label>
+        <input type="text" id="estacion-inicio" name="estacion-inicio" required>
+        
+        <label for="estacion-fin">Estación de Fin:</label>
+        <input type="text" id="estacion-fin" name="estacion-fin" required>
+        
+        <label for="distancia">Distancia (km):</label>
+        <input type="number" id="distancia" name="distancia" required>
+        
+        <input type="submit" value="Registrar Recorrido">
+      </form>
+    </body>
     <button1> <a href= "C:\Users\johnp\Desktop\Proyecto-3-Trem\Proyecto 3\TrainApp\public\index.html"> Volver a la pagina principal</a></button1>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
