@@ -14,15 +14,176 @@
     <title>TREN</title>
     <link rel="stylesheet" type="text/css" href="C:\Users\johnp\Desktop\Proyecto-3-Trem\Proyecto 3\TrainApp\src\index.css">
     <link rel= "stylesheet" type="text/JavaScript" href="C:\Users\johnp\Desktop\Proyecto-3-Trem\Proyecto 3\TrainApp\src\index.js">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      form {
+        width: 50%;
+        margin: 40px auto;
+        text-align: left;
+        padding: 50px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th, td {
+        color: #ddd;
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+        background-color: #474747;
+        font-size: 16px;
+        margin: 0px 250px; 
+      }
+      input[type="button"] {
+        /* Style the submit button */
+        width: 100%;
+        height: 40px;
+        background-color: #4CAF50;
+        color: #ffffff;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
     <a>
       <img src="C:\Users\johnp\Desktop\Proyecto-3-Trem\Proyecto 3\TrainApp\public\logo192.png" alt="Botón de imagen">
     </a>
-    <h1> Rutas Disponibles </h1>   
-    <a>
-      <img src="C:\Users\johnp\Desktop\Proyecto-3-Trem\Proyecto 3\TrainApp\public\TREN.png" alt="Botón de imagen">
-    </a>
+    <h1> Rutas Disponibles </h1> 
+    <form>  
+      <table>
+        <tr>
+            <th>Estacion de inicio</th>
+            <th>Estacion de llegada</th>
+            <th>Distancia</th> 
+            <th>Ambos sentidos</th>
+        </tr>
+        <tr>
+            <td>Moravia</td>
+            <td>Tibas          </td>
+            <td>5 Km</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>Moravia</td>
+            <td>Guadalupe</td>
+            <td>3 km</td>
+            <td>Si</td>
+        </tr>
+        <tr>
+          <td>Tibas</td>
+          <td>Santo Domingo</td>
+          <td>3 km</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>Tibas</td>
+          <td>San José</td>
+          <td>4 km</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>Santo Domingo</td>
+          <td>Heredia</td>
+          <td>3 km</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>San José</td>
+          <td>San Pedro</td>
+          <td>4 km</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>San José</td>
+          <td>Zapote</td>
+          <td>4 km</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>San José</td>
+          <td>Zapote</td>
+          <td>4 km</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>San Pedro</td>
+          <td>Guadalupe</td>
+          <td>2 km</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>San Pedro</td>
+          <td>Curridabat</td>
+          <td>4 km</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>Sabanilla</td>
+          <td>San José</td>
+          <td>6 km</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Sabanilla</td>
+          <td>San Pedro</td>
+          <td>3 km</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Sabanilla</td>
+          <td>Guadalupe</td>
+          <td>2 km</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Curridabat</td>
+          <td>Tres Rios</td>
+          <td>6 km</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>Zapote</td>
+          <td>Tres Rios</td>
+          <td>8 km</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>Tres Rios</td>
+          <td>Sabanilla</td>
+          <td>8 km</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Tres Rios</td>
+          <td>Cartago</td>
+          <td>11 km</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>Cartago</td>
+          <td>Paraiso</td>
+          <td>6 km</td>
+          <td>Si</td>
+        </tr>
+      </table> 
+      <p> *Las rutas se conectan entre si* </p>
+      <script>
+        function clickAlert() {
+          alert("Proximamente se añadira esta función");
+        }
+      </script>
+      <input type="button" onclick="clickAlert()" value="Actualizar Tabla">
+    </form>
     <p> </p>
     <button1> <a href= "C:\Users\johnp\Desktop\Proyecto-3-Trem\Proyecto 3\TrainApp\public\index.html"> Volver a la pagina principal</a></button1>
     <div id="root"></div>
