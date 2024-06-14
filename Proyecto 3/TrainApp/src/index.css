@@ -14,12 +14,6 @@ h1{
   font-size: xx-large;
   font-weight: bold;
 }
-h2{
-  text-align: center;
-  color: #ffffff;
-  font-size: xx-large;
-  font-weight: bold;
-}
 p{
   color: #ffffff;
   display: flex;
@@ -141,14 +135,24 @@ label {
   border-radius: 10px;
 }
 
-input[type="text"], input[type="password"] {
+input[type="text"]{
   /* Style input fields */
   width: 100%;
   height: 40px;
   margin-bottom: 20px;
   padding: 10px;
   border: 1px solid #ccc;
-  color: #000000;
+  color: #ffffff;
+  background-color: #000000;
+}
+input[type="password"]{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: #ffffff;
+  background-color: #000000;
 }
 
 input[type="submit"] {
@@ -166,4 +170,13 @@ input[type="submit"] {
 input[type="submit"]:hover {
   /* Hover effect for the submit button */
   background-color: #3e8e41;
+}
+input[type="number"]{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: #ffffff;
+  background-color: #000000;
 }
